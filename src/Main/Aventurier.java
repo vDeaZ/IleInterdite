@@ -14,10 +14,11 @@ public abstract class Aventurier {
      }
      
     public void setPosition (Tuile ) {
-         if ()
+
      }
      
-
+ 
+    
     public Joueur getJoueur() {
         return joueur;
     }
