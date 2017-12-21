@@ -59,7 +59,7 @@ public class VueAventurier  {
         mainPanel.add(this.panelCentre, BorderLayout.CENTER);
         
         panelCentre.add(new JLabel ("Position", SwingConstants.CENTER));
-        position = new  JTextField(30); 
+        position = new JTextField(30); 
         position.setHorizontalAlignment(CENTER);
         panelCentre.add(position);
 

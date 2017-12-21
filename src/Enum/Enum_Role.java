@@ -1,6 +1,6 @@
-package Roles;
+package Enum;
 
-public static enum Enum_Roles {
+public static enum Enum_Role {
     PILOTE,
     EXPLORATEUR,
     INGENIEUR,
