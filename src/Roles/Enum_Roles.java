@@ -1,18 +1,20 @@
 package Roles;
 
-public enum Enum_Roles {
-    
+public static enum Enum_Roles {
     PILOTE,
     EXPLORATEUR,
-    INGENIEUR("Ingenieur"),
-    PLONGEUR("Plongeur"),
-    MESSAGER("Messager"),
-    NAVIGATEUR("Navigateur");
+    INGENIEUR,
+    PLONGEUR,
+    MESSAGER,
+    NAVIGATEUR;
+    
+    private String libelle;
     
     public String getRole () {
+        
         switch (this) {
             case PILOTE :
-                return "Pilote";
+                return ("Explorateur");
                 break;
                 
             case EXPLORATEUR :
@@ -20,22 +22,17 @@ public enum Enum_Roles {
                 break;
                 
             case INGENIEUR :
+                return ("Ingénieur");
+                break;
+                
+            case PLONGEUR :
                 return ("Explorateur");
                 break;
                 
-                        case EXPLORATEUR :
+            case NAVIGATEUR :
                 return ("Explorateur");
                 break;
-                
-                    case EXPLORATEUR :
-                return ("Explorateur");
-                break;
-                
-    INGENIEUR("Ingenieur"),
-    PLONGEUR("Plongeur"),
-    MESSAGER("Messager"),
-    NAVIGATEUR("Navigateur");
-            
         }
     }
+    
 }

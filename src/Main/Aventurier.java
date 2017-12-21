@@ -4,30 +4,25 @@ import Roles.Enum_Roles;
 
 public abstract class Aventurier {
 
-     private Joueur joueur;
-     private Pion pion;
-     private Tuile tuile_precedente;
-     private Tuile tuile_actuelle;
+    private String nom;
+    private Pion pion;
+    private Tuile tuile_precedente;
+    private Tuile tuile_actuelle;
            
-     public Aventurier () {
-         main = 
-     }
-     
-    public void setPosition (Tuile ) {
-
-     }
+    public Aventurier (String nom, Pion pion) {
+         nom = nom;
+         pion = pion;
+    }
+    
+         
+    public abstract Enum_Roles getRole();
+    
+    public void setPosition (Tuile tuile) {
+        
+    }
      
  
     
-    public Joueur getJoueur() {
-        return joueur;
-    }
-
-
-    public void setJoueur(Joueur joueur) {
-        this.joueur = joueur;
-    }
-
     public Pion getPion() {
         return pion;
     }
@@ -51,8 +46,7 @@ public abstract class Aventurier {
     public void setTuile_actuelle(Tuile tuile_actuelle) {
         this.tuile_actuelle = tuile_actuelle;
     }
-     
-    public abstract Enum_Roles getRole();
+
     
     
 }
