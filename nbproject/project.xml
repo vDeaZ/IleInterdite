@@ -34,6 +34,7 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
             <name>IleInterdite</name>
             <minimum-ant-version>1.6.5</minimum-ant-version>
             <source-roots>
+                <root id="src.Projet%20Ile%20Interdite.dir"/>
                 <root id="src.dir"/>
             </source-roots>
             <test-roots>
