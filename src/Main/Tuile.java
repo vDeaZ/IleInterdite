@@ -6,7 +6,7 @@ import Enum.Enum_Tresor;
 
 public class Tuile {
     
-    private Enum_Tuile nom;
+    private String nom;
     private Enum_Etat etat;
     private Enum_Tresor tresor;
     private int y;
@@ -14,7 +14,7 @@ public class Tuile {
     
     public Tuile () {
         
-        etat = Enum_Etat.
+        
     }
 
     public Enum_Tuile getNom() {
