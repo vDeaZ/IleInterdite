@@ -10,7 +10,7 @@ public class Grille {
         return tuiles;
     }
     
-    public void setTuiles(ArrayList<Tuile> tuiles) {
+    public void setTuiles(Tuile[][] tuiles) {
         this.tuiles = tuiles;
     }
     
@@ -18,8 +18,7 @@ public class Grille {
         int compteurParcoursTuile = 0;
         for (int y = 0 ; y != 6 ; y++) {
             for (int x = 0 ; x != 6 ; x++) {
-
-                if (x>=0 && y==0) {
+                if ( (x>=0 && y==0) ) {
                     
                 } else if {
                     
